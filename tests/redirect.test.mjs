@@ -5,7 +5,7 @@ import { runInNewContext } from "node:vm";
 
 const source = readFileSync(new URL("../docs/redirect.js", import.meta.url), "utf8");
 const vault = "ef6ca3e3b524d22f";
-const uid = "lantern-mist-lagoon-glacier-a11727f29082";
+const uid = "sample-lighthouse-lilac-river-1234567890ab";
 
 function visit(hash) {
   const nodes = Object.fromEntries(["status", "detail", "open-link"].map(id => [id, {
