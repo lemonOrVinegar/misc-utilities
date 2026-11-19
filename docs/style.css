@@ -1,0 +1,10 @@
+:root { color-scheme: light dark; font-family: system-ui, -apple-system, sans-serif; }
+body { min-height: 100svh; display: grid; place-items: center; margin: 0; background: Canvas; color: CanvasText; }
+main { max-width: 28rem; padding: 2rem; text-align: center; }
+h1 { font-size: 1.7rem; font-weight: 650; margin: .4rem 0 1.2rem; }
+p { line-height: 1.5; }
+.eyebrow { letter-spacing: .18em; font-size: .7rem; font-weight: 700; opacity: .65; }
+.detail { opacity: .75; font-size: .92rem; }
+.action { display: inline-block; margin: .7rem auto; padding: .8rem 1.15rem; border-radius: .5rem; background: #7459c2; color: white; text-decoration: none; font-weight: 650; }
+.action:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+[hidden] { display: none !important; }
